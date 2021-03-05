@@ -68,7 +68,7 @@ const Stats = () => {
     return(
         <div className="stats">
             <div className="stats__container">
-                <div className="stats__header">
+                <div className="stats__header ">
                     <p>Stocks</p>
                 </div>
                 <div className="stats__content">
@@ -84,7 +84,7 @@ const Stats = () => {
                         ))}
                     </div>
                 </div>
-                <div className="stats__header">
+                <div className="stats__header stats__lists  ">
                     <p>Lists</p>
                 </div>
                 <div className="stats__rows">
